@@ -1,32 +1,17 @@
-# Prerequisites
-*.d
+void setup() {
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+    pinMode(PC13, OUTPUT);
 
-# Precompiled Headers
-*.gch
-*.pch
+}
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+void loop() {
 
-# Fortran module files
-*.mod
-*.smod
+  digitalWrite(PC13, HIGH);
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+  delay(1000);
 
-# Executables
-*.exe
-*.out
-*.app
+  digitalWrite(PC13, LOW);
+
+  delay(1000);           
+
+}
